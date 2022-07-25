@@ -1,37 +1,36 @@
 {
     "team": [
         {
-            "name": "Team Member Name 1",
-            "email": "email@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx"
+            "name": "Sathira Shamuditha",
+            "email": "e16054@eng.pdn.ac.lk",
+            "eNumber": "E/16/054",
+            "github_profile": "https://github.com/sathirauop",
+            "linkedin_profile": "https://www.linkedin.com/in/sathira-basnayake-56aa41193/"
         },
         {
-            "name": "Team Member Name 2",
-            "email": "email@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx"
+            "name": "Madusha Shanaka",
+            "email": "e16351@eng.pdn.ac.lk",
+            "eNumber": "E/16/351",
+            "github_profile": "https://github.com/MadushaShanaka",
+            "linkedin_profile": "https://www.linkedin.com/in/madushashanaka/"
         },
         {
-            "name": "Team Member Name 3",
-            "email": "email@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx"
+            "name": "Nadun Welikanda",
+            "email": "e16389@eng.pdn.ac.lk",
+            "eNumber": "E/16/389",
+            "github_profile": "https://github.com/Nadun360",
+            "linkedin_profile": "https://www.linkedin.com/in/nadun360/"
         }
     ],
     "supervisors": [
         {
-            "name": "Dr. Supervisor 1",
-            "email": "email@eng.pdn.ac.lk"
+            "name": "Dr. Upul Jayasinghe",
+            "email": "upuljm@eng.pdn.ac.lk"
         },
         {
-            "name": "Dr. Supervisor 2",
-            "email": "email@eng.pdn.ac.lk"
+            "name": "Dr. Suneth Namal Karunarathna",
+            "email": "namal@eng.pdn.ac.lk"
         }
     ],
-    "media": [
-        {
-            "type": "youtube",
-            "title": "",
-            "url": "#"
-        }
-    ],
-    "tags": ["Final Year Projects"]
+    "tags": ["Machine Learning", "Atmospheric Duct Interference", "TD-LTE Networks"]
 }
