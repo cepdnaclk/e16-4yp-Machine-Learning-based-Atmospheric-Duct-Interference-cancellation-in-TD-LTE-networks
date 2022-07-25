@@ -3,24 +3,24 @@ layout: home
 permalink: index.html
 
 # Please update this with your repository name and title
-repository-name: eYY-4yp-project-template
-title:
+repository-name: e16-4yp-Machine-Learning-based-Atmospheric-Duct-Interference-cancellation-in-TD-LTE-networkseYY-4yp-project-template
+title: Machine Learning based Atmospheric Duct Interference cancellation in TD-LTE networks
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Project Title
+# <div align="center">Machine Learning based Atmospheric Duct Interference cancellation in TD-LTE networks</div>
 
 #### Team
 
-- eNumber, Name, [email](mailto:name@email.com)
-- eNumber, Name, [email](mailto:name@email.com)
-- eNumber, Name, [email](mailto:name@email.com)
+- E/16/054, Sathira Shamuditha, [email](mailto:e16054@eng.pdn.ac.lk)
+- E/16/351, Madusha Shanaka, [email](mailto:e16351@eng.pdn.ac.lk)
+- E/16/389, Nadun Welikanda, [email](mailto:e16389@eng.pdn.ac.lk)
 
 #### Supervisors
 
-- Name, [email](mailto:name@eng.pdn.ac.lk)
-- Name, [email](mailto:name@eng.pdn.ac.lk)
+- Dr. Upul Jayasinghe, [email](mailto:upuljm@eng.pdn.ac.lk)
+- Dr. Suneth Namal Karunarathna, [email](mailto:namal@eng.pdn.ac.lk)
 
 #### Table of content
 
@@ -35,12 +35,14 @@ title:
 
 ---
 
-DELETE THIS SAMPLE before publishing to GitHub Pages !!!
-This is a sample image, to show how to add images to your page. To learn more options, please refer [this](https://projects.ce.pdn.ac.lk/docs/faq/how-to-add-an-image/)
-![Sample Image](./images/sample.png)
-
-
 ## Abstract
+
+$\qquad$ Atmospheric ducts are horizontal layers that happen under certain weather conditions in the lower atmosphere. Radio signals guided in the atmospheric duct tend to experience less attenuation and spread further, i.e.hundreds of kilometers [1]. In a large-scale deployed TD-LTE network, atmospheric ducts make faraway downlink (DL) wireless signals propagate beyond the designed protection distance and interfere with local uplink (UL) signals, thus causing severe outage probability. TDD mobile networks are impacted by two types of ducting interference.  
+
+> 1. **External Interference:** This type of interference is caused by the long-distance transmission from nearby country DL signals which will interfere with UL slots of the local TDD network.
+> 2. **Internal interference:** This type of interference is caused by long-distance transmission DL signals which will interfere with UL slots within the operators’ network.  
+
+$\qquad$ In TD-LTE, there exist three kinds of subframes: uplink, downlink, and special sub-frames. The special sub-frame consists of three parts: DwPTS (Downlink Pilot Time Slot), GP (Guard Period), and UpPTS (Uplink Pilot Time Slot). Moreover, the GP is located at the moment when downlink converts to uplink to prevent interference from downlink signals to uplink signals. Under normal circumstances, any downlink signals from distant BSs beyond the maximum protection distance would experience enough attenuation and hardly interfere with the local uplink signals. But with ADI (Atmospheric Duct Interference)  present, this protection does not work. So as a solution we need to build a model which can predict the ADI and as the next step a method to minimize it like dynamically adjusting the GP.  
 
 ## Related works
 
@@ -66,10 +68,7 @@ This is a sample image, to show how to add images to your page. To learn more op
 
 [//]: # ( NOTE: EDIT THIS LINKS WITH YOUR REPO DETAILS )
 
-- [Project Repository](https://github.com/cepdnaclk/repository-name)
-- [Project Page](https://cepdnaclk.github.io/repository-name)
+- [Project Repository](https://github.com/cepdnaclk/e16-4yp-Machine-Learning-based-Atmospheric-Duct-Interference-cancellation-in-TD-LTE-networks)
+- [Project Page](https://cepdnaclk.github.io/e16-4yp-Machine-Learning-based-Atmospheric-Duct-Interference-cancellation-in-TD-LTE-networks/)
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
-
-[//]: # "Please refer this to learn more about Markdown syntax"
-[//]: # "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet"
