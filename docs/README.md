@@ -45,8 +45,31 @@ Atmospheric ducts are horizontal layers that happen under certain weather condit
 In TD-LTE, there exist three kinds of subframes: uplink, downlink, and special sub-frames. The special sub-frame consists of three parts: DwPTS (Downlink Pilot Time Slot), GP (Guard Period), and UpPTS (Uplink Pilot Time Slot). Moreover, the GP is located at the moment when downlink converts to uplink to prevent interference from downlink signals to uplink signals. Under normal circumstances, any downlink signals from distant BSs beyond the maximum protection distance would experience enough attenuation and hardly interfere with the local uplink signals. But with ADI (Atmospheric Duct Interference)  present, this protection does not work. So as a solution we need to build a model which can predict the ADI and as the next step a method to minimize it like dynamically adjusting the GP.  
 
 ## Related works
+1. Analysis and prediction of 100 km-scale atmospheric duct interference in TD-LTE net by Ting Zhou, Tianyu Sun, Honglin Hu, Hui Xu, Yang Yang , Ilkka Harjula , Yevgeni Koucheryavy
+   1. This paper analyses characteristics of ADI using real network-side big data from the current operated TD-LTE network owned by China Mobile
+   2. They also proparse ML model to predict the ADI. That is  SVM (Support Vector Machine)-classifier based spacial prediction method of ADI.
+2. A Random Forest-based Prediction Method of Atmospheric Duct Interference in TD-LTE Networks by Tianyu Sun, Ting Zhou, Hui Xu and Yang Yang
+   1. This paper also analyses characteristics of ADI using real network-side big data from the current operated TD-LTE network owned by China Mobile.
+   2. This paper shows that using machine learning can get a good prediction performance for ADI
+   3. This paper also compares the performance of different machine learning algorithms and finds  that Random Forest has a short training time while maintaining the similar accuracy.
+3. Recognition and Optimization of Atmospheric Duct in TD-LTE System Based on Convolutional Neural Network by Jin-Hu Shen, Ji-Xiang Liu Jing-Lei Zuo Wen-Bo Ding Ao Shen
+   1. This paper is focused on analysing and detection of of atmospheric duct based on network configuration and image recognition using a convolutional neural network
+4. Liu F, Pan J, Zhou X, Li G discussed about challenges and opportunities of Atmospheric Ducting Effect in Wireless Communications
+   1. They states that this phenomenon can use for duct-Assisted Air-Ground-Sea Integrated Networks.
+   2. And this also affect badly on TD-LTE networks and it may cause to interfere the waves. They stated many non ML based solutions to reduce the duct interference.
 
 ## Methodology
+* Find a suitable data sets for the ML models
+* Implement several predictive models and using performance metrics choose the best model.
+* Study TD-LTE networks and find a solution how to minimize the ADI based on the results from the predictive model
+* Implement that solution via machine learning
+
+> **MATLAB - LTE Toolbox**  
+> 1. Simulate, analyze, and test the physical layer of LTE wireless communications systems
+> 2. Provides standard-compliant functions and apps for the design, simulation, and verification of LTE communications systems
+> 3. Build test models and reference measurement channels (RMC) for LTE waveforms.
+
+
 
 ## Experiment Setup and Implementation
 
